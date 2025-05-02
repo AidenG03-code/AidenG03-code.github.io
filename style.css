@@ -1,0 +1,21 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 20px;
+}
+
+body.home {
+  background-color: black;
+  color: gold;
+}
+
+body.nerd {
+  background-color: lavender;
+  color: indigo;
+}
+
+body.fighter {
+  background-color: gold;
+  color: black;
+}
