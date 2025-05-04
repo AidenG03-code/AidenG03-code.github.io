@@ -1,8 +1,16 @@
 body {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
   margin: 0;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.home h1 {
+  border: 5px solid gold;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
 }
 
 body.home {
@@ -10,12 +18,29 @@ body.home {
   color: gold;
 }
 
-body.nerd {
-  background-color: lavender;
-  color: indigo;
-}
-
 body.fighter {
   background-color: gold;
   color: black;
+}
+
+body.nerd {
+  background-color: lavender;
+  color: darkmagenta;
+}
+
+img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
